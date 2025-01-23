@@ -1,0 +1,15 @@
+.out
+~*
+*~
+_*
+*.new
+*.log
+*.tmp
+*.exe
+*.o
+*.a
+*.so
+#*
+.#*
+.*swp
+*.class
