@@ -11,4 +11,6 @@ potential projects:
 
 3. select hi-res and good quality photo for video editing
 
+4. garmin watch pacer app
+
 
