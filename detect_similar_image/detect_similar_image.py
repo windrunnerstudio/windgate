@@ -165,8 +165,9 @@ for i in range(1, len(file_lst)):
         print(f"i= {i} min_dist= {min_dist} similar with {min_idx}: bcompare {file_lst[i]} {kept_files[min_idx]} &")
         os.system(f"ls -l {file_lst[i]}")
         os.system(f"ls -l {kept_files[min_idx]}")
-        os.system(f"bcompare {file_lst[i]} {kept_files[min_idx]}")
-        ans = input(f"do you want to delete {file_lst[i]} ? [y/n]")
+        # os.system(f"bcompare {file_lst[i]} {kept_files[min_idx]}")
+        os.system(f"open {file_lst[i]} {kept_files[min_idx]} &")
+        ans = input(f"do you want to delete {file_lst[i]} ? [y/n] ")
         if ans.lower() == 'y':
             os.system(f"/bin/rm -fv {file_lst[i]}")
         else:
