@@ -189,9 +189,9 @@ for i in range(1, len(file_lst)):
 
 pip install imagehash
 
-python ~/windgate/detect_similar_image/detect_similar_image.py --hash_method ahash --min_dist 1 ~/Pictures/*.jpg
+python ~/windgate/image_tools/detect_similar_image.py --hash_method ahash --min_dist 1 ~/Pictures/*.jpg
 
-python ~/windgate/detect_similar_image/detect_similar_image.py ~/Pictures/*.jpg
+python ~/windgate/image_tools/detect_similar_image.py ~/Pictures/*.jpg
 
 this works ok with default setting in finding almost duplicate images, such as different wechat downloads, and low-resolution ones.
 
