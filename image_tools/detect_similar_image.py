@@ -162,7 +162,7 @@ for i in range(1, len(file_lst)):
             min_dist = dist
             min_idx = j
     if min_dist <= args.min_dist:
-        print(f"i= {i} min_dist= {min_dist} similar with {min_idx}: bcompare {file_lst[i]} {kept_files[min_idx]} &")
+        print(f"i= {i} min_dist= {min_dist} similar with {min_idx}: open {file_lst[i]} {kept_files[min_idx]} &")
         os.system(f"ls -l {file_lst[i]}")
         os.system(f"ls -l {kept_files[min_idx]}")
         # os.system(f"bcompare {file_lst[i]} {kept_files[min_idx]}")
